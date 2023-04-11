@@ -7,9 +7,10 @@
 //
 
 #import "XYHViewController.h"
-
+#import <XNetworkManager.h>
+#import "XYHViewModel.h"
 @interface XYHViewController ()
-
+@property(nonatomic,copy)XYHViewModel *model;
 @end
 
 @implementation XYHViewController
@@ -17,7 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [[[XNetworkManager defaultManager]registerWithApiUrl:@"https://autumnfish.cn" userToken:@"" userSecret:@"" refreshToken:@"" appVersion:@""] setIsOpenApiLog:YES];
+    [self.model.subject subscribeNext:^(id  _Nullable x) {
+        
+    }];
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +30,10 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(XYHViewModel *)model{
+    if(!_model){
+        _model = [[XYHViewModel alloc]init];
+    }
+    return _model;
+}
 @end

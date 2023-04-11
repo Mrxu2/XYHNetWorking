@@ -24,6 +24,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C37BC3C79B5EC185BE105F46 /* Pods_XYHNetWorking_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50516B3F6B479CD7E9D9FD7B /* Pods_XYHNetWorking_Example.framework */; };
 		CF9F786D4D96392C0B98E480 /* Pods_XYHNetWorking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF86B60E0608E522F1929187 /* Pods_XYHNetWorking_Tests.framework */; };
+		FC32C80629E57D1000EFA48F /* XYHViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FC32C80529E57D1000EFA48F /* XYHViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +39,8 @@
 
 /* Begin PBXFileReference section */
 		1BD1736B4403C0B5D2E3F598 /* Pods-XYHNetWorking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHNetWorking_Tests.release.xcconfig"; path = "Target Support Files/Pods-XYHNetWorking_Tests/Pods-XYHNetWorking_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2969EF9B9CAA391A108CF12E /* XYHNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYHNetWorking.podspec; path = ../XYHNetWorking.podspec; sourceTree = "<group>"; };
-		2B7AA449A44D6B268AA5C110 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2969EF9B9CAA391A108CF12E /* XYHNetWorking.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYHNetWorking.podspec; path = ../XYHNetWorking.podspec; sourceTree = "<group>"; };
+		2B7AA449A44D6B268AA5C110 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4ECABEA8FF83C312BD706B13 /* Pods-XYHNetWorking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHNetWorking_Example.debug.xcconfig"; path = "Target Support Files/Pods-XYHNetWorking_Example/Pods-XYHNetWorking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		50516B3F6B479CD7E9D9FD7B /* Pods_XYHNetWorking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYHNetWorking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* XYHNetWorking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYHNetWorking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +64,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		712035065BA98F53225B410E /* Pods-XYHNetWorking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHNetWorking_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYHNetWorking_Tests/Pods-XYHNetWorking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		798B601C4A28329DD721E5DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		798B601C4A28329DD721E5DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7D9733944B8C86F8094AB7C7 /* Pods-XYHNetWorking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYHNetWorking_Example.release.xcconfig"; path = "Target Support Files/Pods-XYHNetWorking_Example/Pods-XYHNetWorking_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC32C80429E57D1000EFA48F /* XYHViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYHViewModel.h; sourceTree = "<group>"; };
+		FC32C80529E57D1000EFA48F /* XYHViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYHViewModel.m; sourceTree = "<group>"; };
 		FF86B60E0608E522F1929187 /* Pods_XYHNetWorking_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYHNetWorking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* XYHViewController.h */,
 				6003F5A6195388D20070C39A /* XYHViewController.m */,
+				FC32C80429E57D1000EFA48F /* XYHViewModel.h */,
+				FC32C80529E57D1000EFA48F /* XYHViewModel.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				712035065BA98F53225B410E /* Pods-XYHNetWorking_Tests.debug.xcconfig */,
 				1BD1736B4403C0B5D2E3F598 /* Pods-XYHNetWorking_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -343,11 +348,19 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XYHNetWorking_Example/Pods-XYHNetWorking_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
 				"${BUILT_PRODUCTS_DIR}/XYHNetWorking/XYHNetWorking.framework",
+				"${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYHNetWorking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTKNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -385,6 +398,7 @@
 			files = (
 				6003F59E195388D20070C39A /* XYHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XYHViewController.m in Sources */,
+				FC32C80629E57D1000EFA48F /* XYHViewModel.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
